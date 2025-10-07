@@ -7,7 +7,7 @@ https://img.shields.io/badge/SHAP-Explainable%2520AI-yellow
 https://img.shields.io/badge/License-MIT-green
 
 # 📖 Overview
-This project tackles the critical challenge of "black box" models in healthcare AI. While many models can predict diabetes with high accuracy, their decisions are often opaque. This repository demonstrates how to build a predictive model and, more importantly, uses state-of-the-art Explainable AI (XAI) techniques to make the model's reasoning transparent and understandable for clinicians and patients.
+This project tackles the critical challenge of "black box" models in healthcare AI. While many models can predict diabetes with high accuracy, their decisions are often opaque. This repository demonstrates how to build a predictive model and, more importantly, uses state-of-the-art Explainable ML (XML) techniques to make the model's reasoning transparent and understandable for clinicians and patients.
 
 ## Key Features:
 

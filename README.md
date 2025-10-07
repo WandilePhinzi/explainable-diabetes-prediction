@@ -1,4 +1,4 @@
-#🩺 Explainable Diabetes Prediction
+# 🩺 Explainable Diabetes Prediction
 A machine learning project that not only predicts the likelihood of diabetes but also explains why the model made its prediction. Built with a focus on transparency and interpretability using SHAP and LIME.
 
 https://img.shields.io/badge/Python-3.8%252B-blue
@@ -19,7 +19,7 @@ Model Explainability: In-depth interpretation of predictions using SHAP (SHapley
 
 Web Application: An interactive Streamlit app that allows users to input patient data and get both a prediction and a visual explanation.
 
-#📊 Dataset
+# 📊 Dataset
 The project uses the Pima Indians Diabetes Database, a well-known dataset from the National Institute of Diabetes and Digestive and Kidney Diseases.
 
 Objective: To predict whether a patient has diabetes (binary classification: 1 = Yes, 0 = No).

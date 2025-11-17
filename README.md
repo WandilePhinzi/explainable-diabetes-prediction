@@ -1,10 +1,6 @@
 # 🩺 Explainable Diabetes Prediction
 A machine learning project that not only predicts the likelihood of diabetes but also explains why the model made its prediction. Built with a focus on transparency and interpretability using SHAP.
 
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/Scikit--learn-Learn-orange
-https://img.shields.io/badge/SHAP-Explainable%2520AI-yellow
-https://img.shields.io/badge/License-MIT-green
 
 # 📖 Overview
 This project tackles the critical challenge of "black box" models in healthcare AI. While many models can predict diabetes with high accuracy, their decisions are often opaque. This repository demonstrates how to build a predictive model and, more importantly, uses state-of-the-art Explainable ML (XML) techniques to make the model's reasoning transparent and understandable for clinicians and patients.
@@ -57,7 +53,7 @@ cd explainable-diabetes-prediction
 
 ## Install dependencies
 pip install -r requirements.txt
-3. Running the Project
+Running the Project
 You can explore the project in two ways:
 
 Option A: Jupyter Notebook
@@ -85,7 +81,7 @@ explainable-diabetes-prediction/
 ├── requirements.txt                  # Python dependencies
 └── README.md                        # This file
 # 🔍 Model Explainability in Action
-This project highlights the power of XAI. For any given prediction, you can generate explanations that answer:
+This project highlights the power of XML. For any given prediction, you can generate explanations that answer:
 
 "Which factors were most influential in this prediction?"
 
@@ -97,11 +93,11 @@ Summary Plot: Provides a global view of feature importance.
 Force Plot: Shows a local explanation for a single prediction, visualizing how each feature contributed to the output.
 
 # 📈 Results
-The project compares several models (e.g., Logistic Regression, Random Forest, XGBoost) and selects the best performer based on metrics like Accuracy, Precision, Recall, and F1-Score. The final model achieves robust performance while maintaining a focus on interpretability.
+The project compares several models (LightGBoost,XGBoost, Random Forest) and selects the best performer based on metrics like Accuracy, Precision, Recall, and F1-Score. The final model achieves robust performance while maintaining a focus on interpretability.
 
-Best Model: [e.g., Random Forest Classifier]
+Best Model: [LightGradientBoost]
 
-Accuracy: [e.g., 78%]
+Accuracy: 97%
 
 Key insights from explainability analysis show that Glucose level, BMI, and Age are consistently the top contributors to the model's predictions.
 

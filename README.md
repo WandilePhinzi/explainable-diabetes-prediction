@@ -67,16 +67,73 @@ This will open a browser window where you can input feature values and get insta
 
 # 🗂️ Project Structure
 - **explainable-diabetes-prediction/**
-  - **data/**
-    - `diabetes.csv` - Original dataset
-  - **notebooks/**
-    - `diabetes_prediction.ipynb` - Main Jupyter notebook for analysis
-  - **app/**
-    - `app.py` - Streamlit application code
-  - **models/**
-    - `best_model.pkl` - Saved trained model
-  - `requirements.txt` - Python dependencies
-  - `README.md` - Project documentation
+  - **Datasets/**
+    - `binary_health_indicators_BRFSS2015.csv`                 # BRFSS 2015 health indicators dataset
+    - `diabetes_dataset.csv`                                   # Primary diabetes dataset  
+    - `diabetes_prediction_dataset.csv`                        # Diabetes prediction dataset
+  - **Jupyter Notebooks/**
+    - **Diabetes_dataset_training/**
+      - `Diabetes_Dataset_Using_ExtremeGradientBoost.ipynb`    # XGBoost training on diabetes dataset
+      - `Diabetes_Dataset_Using_LightGradientBoost.ipynb`      # LightGBM training on diabetes dataset
+      - `Diabetes_Dataset_Using_RandomForest.ipynb`            # Random Forest training on diabetes dataset
+    - **Diabetes_prediction_Dataset_BRFSS_training/**
+      - `Diabetes_Prediction_Dataset_BRFSS_Using_ExtremeGradientBoost.ipynb`  # XGBoost training on BRFSS dataset
+      - `Diabetes_Prediction_Dataset_BRFSS_Using_LightGradientBoost.ipynb`    # LightGBM training on BRFSS dataset  
+      - `Diabetes_Prediction_Dataset_BRFSS_Using_RandomForest.ipynb`          # Random Forest training on BRFSS dataset
+    - **Diabetes_prediction_dataset_training/**
+      - `Diabetes_Prediction_Dataset_Using_ExtremeGradientBoost.ipynb`        # XGBoost training on prediction dataset
+      - `Diabetes_Prediction_Dataset_Using_LightGradientBoost.ipynb`          # LightGBM training on prediction dataset
+      - `Diabetes_Prediction_Dataset_Using_RandomForest.ipynb`                # Random Forest training on prediction dataset
+  - **Visualization Plots/**
+    - **BFRSS_2015_PLOTS/**
+      - **Extreme Gradient/**
+        - `Feature Importance.png`                             # Feature importance visualization
+        - `ROC_Curve_XGBoost.png`                              # ROC curve for XGBoost
+        - `Summary Plot.png`                                   # Model summary plot
+        - `Waterfall_XGBoost.png`                              # Waterfall plot for explanations
+        - `XGBoost Bar plot_BRFSS.png`                         # Bar plot visualization
+      - **Light Gradient Boost/**
+        - `BarPlot.png`                                        # Feature importance bar plot
+        - `Feature importance.png`                             # Feature importance analysis
+        - `ROC Curve.png`                                      # ROC curve performance
+        - `Summary Plot.png`                                   # Model summary
+        - `Waterfall.png`                                      # Waterfall explanation plot
+      - **Random Forest/**
+        - `Feature importance.png`                             # Random Forest feature importance
+        - `ROC.png`                                            # ROC curve analysis
+    - **Diabetes_Prediction_Dataset_Plots/**
+      - **Extreme Gradient Boost/**
+        - `Feature Importance.png`                             # XGBoost feature importance
+        - `ROC Curve for Extreme Gradient.png`                 # ROC curve visualization
+        - `Summary Plot.png`                                   # Model summary
+        - `Waterfall plot.png`                                 # Waterfall explanation
+      - **Light Gradient Boost/**
+        - `Feature Importance.png`                             # LightGBM feature importance
+        - `ROC Curve.png`                                      # Performance ROC curve
+        - `Summary Plot.png`                                   # Model summary
+        - `Waterfall Plot.png`                                 # Explanation waterfall
+      - **Random Forest/**
+        - `Feature Importance.png`                             # Random Forest features
+        - `ROC Curve.png`                                      # ROC performance
+        - `Summary Plot.png`                                   # Model summary
+        - `Waterfall Plot.png`                                 # Explanation visualization
+    - **Diabetes_dataset_plots/**
+      - **Extreme Gradient/**
+        - `Importance Plot.png`                                # Feature importance
+        - `ROC_Curve for Extreme Gradient.png`                 # ROC curve
+        - `Summary Plot for Extreme Model.png`                 # Model summary
+        - `Waterfall for Extreme Model.png`                    # Waterfall explanation
+      - **Light Gradient/**
+        - `Bar Plot for Light Gradient.png`                    # Feature bar plot
+        - `ROC Curve for Light Gradient.png`                   # ROC curve
+        - `Summary Plot for Light Gradient.png`                # Model summary
+        - `Variable Importance Plot for Light Gradient.png`    # Variable importance
+        - `Waterfall plot.png`                                 # Waterfall visualization
+      - **Random Forest/**
+        - `ROC Curve for Random Forest.png`                    # ROC performance
+        - `Summary Plot.png`                                   # Model summary
+        - `Variable Importance for Random Forest.png`          # Variable importance
+        - `Waterfall plot.png` 
 
 # 🔍 Model Explainability in Action
 This project highlights the power of XML. For any given prediction, you can generate explanations that answer:

@@ -22,19 +22,19 @@ Objective: To predict whether a patient has diabetes (binary classification: 1 =
 
 Features: The dataset includes diagnostic measurements such as:
 
-Pregnancies
+**Pregnancies**
 
-Glucose (Plasma glucose concentration)
+**Glucose (Plasma glucose concentration)**
 
-BloodPressure (Diastolic blood pressure)
+**BloodPressure (Diastolic blood pressure)**
 
-SkinThickness (Triceps skin fold thickness)
+**SkinThickness (Triceps skin fold thickness)**
 
-Insulin (2-Hour serum insulin)
+**Insulin (2-Hour serum insulin)**
 
-BMI (Body Mass Index)
+**BMI (Body Mass Index)**
 
-DiabetesPedigreeFunction (A function that scores the likelihood of diabetes based on family history)
+**DiabetesPedigreeFunction (A function that scores the likelihood of diabetes based on family history)**
 
 Age
 # 🚀 Quick Start

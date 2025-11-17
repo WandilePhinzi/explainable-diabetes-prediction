@@ -66,7 +66,7 @@ streamlit run app/app.py
 This will open a browser window where you can input feature values and get instant predictions with explanations.
 
 # 🗂️ Project Structure
-text
+```text
 explainable-diabetes-prediction/
 │
 ├── data/
@@ -77,7 +77,7 @@ explainable-diabetes-prediction/
 │   └── app.py                       # Streamlit application code
 ├── models/
 │   └── best_model.pkl               # Saved trained model (if available)
-├── requirements.txt                  # Python dependencies
+├── requirements.txt                 # Python dependencies
 └── README.md                        # This file
 # 🔍 Model Explainability in Action
 This project highlights the power of XML. For any given prediction, you can generate explanations that answer:

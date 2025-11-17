@@ -152,7 +152,7 @@ Best Model: LightGradientBoost
 
 Accuracy: 97%
 
-Key insights from explainability analysis show that Glucose level, BMI, and Age are consistently the top contributors to the model's predictions.
+Key insights from explainability analysis show that HbA1c, Glucose level, BMI, and Age are consistently the top contributors to the model's predictions.
 
 # 👨‍💻 Author
 Wandile Phinzi

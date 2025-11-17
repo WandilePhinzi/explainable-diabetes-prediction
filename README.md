@@ -150,7 +150,7 @@ Force Plot: Shows a local explanation for a single prediction, visualizing how e
 # 📈 Results
 The project compares several models (LightGBoost,XGBoost, Random Forest) and selects the best performer based on metrics like Accuracy, Precision, Recall, and F1-Score. The final model achieves robust performance while maintaining a focus on interpretability.
 
-Best Model: [LightGradientBoost]
+Best Model: LightGradientBoost
 
 Accuracy: 97%
 

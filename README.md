@@ -22,7 +22,7 @@ Objective: To predict whether a patient has diabetes (binary classification: 1 =
 
 Features: The dataset includes diagnostic measurements such as:
 
-**Pregnancies**
+- **Pregnancies**
 
 - **Glucose (Plasma glucose concentration)**
 

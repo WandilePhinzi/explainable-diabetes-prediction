@@ -36,7 +36,7 @@ Features: The dataset includes diagnostic measurements such as:
 
 - **DiabetesPedigreeFunction (A function that scores the likelihood of diabetes based on family history)**
 
-Age
+- **Age**
 # 🚀 Quick Start
 1. Prerequisites
 Ensure you have Python 3.8+ installed on your system.

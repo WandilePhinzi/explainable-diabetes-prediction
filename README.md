@@ -13,8 +13,6 @@ Model Training: Implementation and evaluation of multiple machine learning class
 
 Model Explainability: In-depth interpretation of predictions using SHAP (SHapley Additive exPlanations).
 
-Web Application: An interactive Streamlit app that allows users to input patient data and get both a prediction and a visual explanation.
-
 # 📊 Dataset
 The project uses the Pima Indians Diabetes Database, a well-known dataset from the National Institute of Diabetes and Digestive and Kidney Diseases.
 
@@ -169,3 +167,6 @@ The dataset providers: National Institute of Diabetes and Digestive and Kidney D
 The creators of SHAP and LIME for their invaluable explainability libraries.
 
 The Streamlit team for enabling the rapid creation of interactive web apps.
+
+To my Supervisor Mr Melvin Kisten for assisting me with my research
+

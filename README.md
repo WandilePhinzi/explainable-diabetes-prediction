@@ -44,7 +44,6 @@ Ensure you have Python 3.8+ installed on your system.
 2. Installation
 Clone the repository and install the required dependencies.
 
-bash
 ## Clone the repo
 git clone https://github.com/WandilePhinzi/explainable-diabetes-prediction.git
 

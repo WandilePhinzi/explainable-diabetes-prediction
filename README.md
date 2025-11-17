@@ -7,7 +7,7 @@ This project tackles the critical challenge of "black box" models in healthcare 
 
 ## Key Features:
 
-Data Preprocessing & EDA: Comprehensive cleaning and exploratory data analysis of the Pima Indians Diabetes Dataset.
+Data Preprocessing & EDA: Comprehensive cleaning and exploratory data analysis of various Diabetes Datasets.
 
 Model Training: Implementation and evaluation of multiple machine learning classifiers.
 

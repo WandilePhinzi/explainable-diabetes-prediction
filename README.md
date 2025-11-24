@@ -51,13 +51,11 @@ cd explainable-diabetes-prediction
 ## Install dependencies
 pip install -r requirements.txt
 Running the Project
-You can explore the project in two ways:
+You can explore the project by:
 
-Option A: Jupyter Notebook
+Jupyter Notebook:
 Run the notebooks/diabetes_prediction.ipynb (or the main analysis notebook) to walk through the entire data science pipeline step-by-step, from EDA to model explanation.
 
-Option B: Interactive Web App
-Launch the Streamlit web application for an interactive experience.
 
 ## bash
 streamlit run app/app.py
@@ -155,7 +153,8 @@ Accuracy: 97%
 Key insights from explainability analysis show that HbA1c, Glucose level, BMI, and Age are consistently the top contributors to the model's predictions.
 
 # 👨‍💻 Author
-Wandile Phinzi
+Mr Wandile Phinzi
+Mr Melvin Kisten
 
 GitHub: @WandilePhinzi
 
@@ -165,8 +164,6 @@ LinkedIn: Wandile Phinzi
 The dataset providers: National Institute of Diabetes and Digestive and Kidney Diseases.
 
 The creators of SHAP and LIME for their invaluable explainability libraries.
-
-The Streamlit team for enabling the rapid creation of interactive web apps.
 
 To my Supervisor Mr Melvin Kisten for assisting me with my research
 

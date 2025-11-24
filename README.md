@@ -57,9 +57,6 @@ Jupyter Notebook:
 Run the notebooks/diabetes_prediction.ipynb (or the main analysis notebook) to walk through the entire data science pipeline step-by-step, from EDA to model explanation.
 
 
-## bash
-streamlit run app/app.py
-This will open a browser window where you can input feature values and get instant predictions with explanations.
 
 # 🗂️ Project Structure
 - **explainable-diabetes-prediction/**
@@ -154,6 +151,7 @@ Key insights from explainability analysis show that HbA1c, Glucose level, BMI, a
 
 # 👨‍💻 Author
 Mr Wandile Phinzi
+
 Mr Melvin Kisten
 
 GitHub: @WandilePhinzi

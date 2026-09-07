@@ -50,7 +50,9 @@ cd explainable-diabetes-prediction
 
 ## Install dependencies
 pip install -r requirements.txt
+
 Running the Project
+
 You can explore the project by:
 
 Jupyter Notebook:
